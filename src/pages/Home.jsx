@@ -449,8 +449,8 @@ export default function Home() {
 
             <div className="flex flex-col gap-4">
               {[
-                { icon: '👤', label: 'Contact Person', val: 'Nikhil Gupta' },
-                { icon: '📧', label: 'Email', val: 'tripathiharsh202@gmail.com' },
+                { icon: '👤', label: 'Contact Person', val: 'Nikhil Gupta & Harsh Tripathi' },
+                { icon: '📧', label: 'Email', val: 'Noni.workplace@gmail.com' },
                 { icon: '📍', label: 'Based In', val: 'India' },
               ].map((c, i) => (
                 <div key={i} className="gsap-card card flex items-center gap-5 px-5 py-4 hover:translate-x-1">
@@ -498,7 +498,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-white/[0.05] pt-6 flex flex-wrap items-center justify-between gap-3">
-            <p className="text-white/20 text-xs">© 2026 TrackX. All rights reserved. Contact: <span className="text-white/40">Nikhil Gupta</span></p>
+            <p className="text-white/20 text-xs">© 2026 TrackX. All rights reserved. Contact: <span className="text-white/40">Nikhil Gupta & Harsh Tripathi</span></p>
             <p className="text-white/15 text-xs">Securing India's vehicles, one click at a time.</p>
           </div>
         </div>
