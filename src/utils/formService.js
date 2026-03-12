@@ -23,8 +23,8 @@ export async function submitOrder(rawData) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         access_key: import.meta.env.VITE_WEB3FORMS_KEY,
-        subject: `🔴 New TrackX Order [${orderId}] — ${data.name}`,
-        from_name: 'TrackX Orders',
+        subject: `🔴 New  Order [${orderId}] — ${data.name}`,
+        from_name: ' Orders',
         // ── Order details as clean email body ──
         'Order ID':      orderId,
         'Date':          orderDate,
@@ -95,8 +95,8 @@ export async function submitContact(rawData) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         access_key: import.meta.env.VITE_WEB3FORMS_KEY,
-        subject:    `💬 TrackX Contact — ${data.name}`,
-        from_name:  'TrackX Contact Form',
+        subject:    `💬 Alertis Contact — ${data.name}`,
+        from_name:  'Contact Form',
         'Name':     data.name,
         'Email':    data.email,
         'Subject':  data.subject || 'No subject',

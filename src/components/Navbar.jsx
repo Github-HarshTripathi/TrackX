@@ -50,8 +50,7 @@ export default function Navbar() {
               </svg>
             </div>
           </div>
-          <span className="font-orbitron font-black text-lg tracking-[0.15em] text-white">
-            TRACK<span className="text-[#e6000a]">X</span>
+          <span className="font-orbitron font-black text-lg tracking-[0.15em] text-white">Alertis<span className="text-[#e6000a]">X</span>
           </span>
         </Link>
 

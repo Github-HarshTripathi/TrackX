@@ -50,7 +50,7 @@ const features = [
 const steps = [
   { n: '01', title: 'Order Device', desc: 'Fill the order form. Device ships within 24 hours with a full installation guide included in the box.' },
   { n: '02', title: 'Easy Install', desc: 'Clip the compact device to your vehicle. No wires, no drilling — truly plug-and-track in 5 minutes.' },
-  { n: '03', title: 'One Click', desc: 'Visit TrackX, hit the Track button — see your vehicle\'s exact live location on the map instantly.' },
+  { n: '03', title: 'One Click', desc: 'Visit Alertis, hit the Track button — see your vehicle\'s exact live location on the map instantly.' },
   { n: '04', title: 'Stay Protected', desc: 'Automatic theft alerts, battery notifications, and speed monitoring running silently 24/7.' },
 ]
 
@@ -167,15 +167,13 @@ export default function Home() {
             </h1>
 
             <p ref={descRef} className="text-white/45 text-lg leading-relaxed mb-10 max-w-[480px]">
-              TrackX is a smart GPS tracking device built for Indian roads. Instantly locate and
-              protect your motorcycle, scooter, or car using advanced satellite technology — no
-              technical skills needed.
+              Alertis is a pvt. ltd. company specialised in electronics and automation.
             </p>
 
             <div ref={ctaRef} className="flex flex-wrap gap-4">
               <Link to="/order" className="btn-primary">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="2.5" fill="white"/><path d="M7 0v3M7 11v3M0 7h3M11 7h3" stroke="white" strokeWidth="1.5" strokeLinecap="round"/></svg>
-                Order Device — ₹999
+                Order Device — ₹18000
               </Link>
               <a href="#how-it-works" className="btn-ghost">
                 See How It Works →
@@ -419,10 +417,10 @@ export default function Home() {
           <p className="gsap-reveal section-label justify-center"><span className="tag-line">Limited Stock</span></p>
           <h2 className="gsap-reveal font-orbitron font-black text-white mb-5"
             style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)' }}>
-            Ready to Secure<br />Your Vehicle?
+            
           </h2>
           <p className="gsap-reveal text-white/35 text-base leading-relaxed mb-10 max-w-md mx-auto">
-            Join 10,000+ riders across India who trust TrackX to keep their vehicles safe. Free shipping. 30-day guarantee.
+            Join Alertis to keep be free from chaos and confusion.
           </p>
           <div className="gsap-reveal flex flex-wrap gap-4 justify-center">
             <Link to="/order" className="btn-primary text-sm">
@@ -449,8 +447,8 @@ export default function Home() {
 
             <div className="flex flex-col gap-4">
               {[
-                { icon: '👤', label: 'Contact Person', val: 'Nikhil Gupta & Harsh Tripathi' },
-                { icon: '📧', label: 'Email', val: 'Noni.workplace@gmail.com' },
+                { icon: '👤', label: 'Contact Person', val: 'Nikhil Gupta' },
+                { icon: '📧', label: 'Email', val: 'tripathiharsh202@gmail.com' },
                 { icon: '📍', label: 'Based In', val: 'India' },
               ].map((c, i) => (
                 <div key={i} className="gsap-card card flex items-center gap-5 px-5 py-4 hover:translate-x-1">
@@ -475,10 +473,10 @@ export default function Home() {
           <div className="flex flex-wrap justify-between gap-10 mb-10">
             <div>
               <p className="font-orbitron font-black text-xl tracking-widest mb-3">
-                TRACK<span className="text-[#e6000a]">X</span>
+                ALERTIS<span className="text-[#e6000a]">X</span>
               </p>
               <p className="text-white/25 text-sm max-w-xs leading-relaxed">
-                India's smartest GPS vehicle tracking device. Know where your bike is — always.
+              
               </p>
             </div>
             {[
@@ -498,8 +496,8 @@ export default function Home() {
           </div>
 
           <div className="border-t border-white/[0.05] pt-6 flex flex-wrap items-center justify-between gap-3">
-            <p className="text-white/20 text-xs">© 2026 TrackX. All rights reserved. Contact: <span className="text-white/40">Nikhil Gupta & Harsh Tripathi</span></p>
-            <p className="text-white/15 text-xs">Securing India's vehicles, one click at a time.</p>
+            <p className="text-white/20 text-xs">© 2026 Alertis. All rights reserved. Contact: <span className="text-white/40">Nikhil Gupta</span></p>
+            <p className="text-white/15 text-xs">Securing India's orders, one click at a time.</p>
           </div>
         </div>
       </footer>
